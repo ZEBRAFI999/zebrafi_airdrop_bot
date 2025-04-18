@@ -1,15 +1,14 @@
 {
   "name": "zebrafi-airdrop-bot",
   "version": "1.0.0",
-  "description": "Telegram airdrop bot for ZebraFi",
+  "description": "Telegram bot for ZRFI airdrop",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "axios": "^1.6.7",
+    "telegraf": "^4.12.2",
     "dotenv": "^16.3.1",
-    "firebase-admin": "^11.10.1",
-    "node-telegram-bot-api": "^0.61.0"
+    "firebase-admin": "^11.10.1"
   }
 }
